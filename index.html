@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <meta name="description" content="Temukan sepatu pilihan untuk setiap langkah. Belanja sepatu nyaman dengan mudah di Langkah.">
+  <title>Langkah — Temukan langkah terbaikmu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="shop">
+  <div class="announcement">Gratis ongkir untuk pembelian mulai dari Rp500.000</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Langkah, ke halaman utama"><span class="brand-mark">L</span>langkah<span class="brand-period">.</span></a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a class="active" href="index.html">Beranda</a>
+      <a href="#koleksi">Koleksi</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-link cart-link" href="keranjang.html" aria-label="Buka keranjang">Tas <span class="cart-count">0</span></a>
+      <a class="button button-dark header-cta" href="#koleksi">Belanja sekarang <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> LANGKAH KECIL, CERITA BESAR</p>
+        <h1>Temukan langkah<br>terbaik <span>untukmu.</span></h1>
+        <p class="hero-description">Sepatu pilihan yang nyaman menemani setiap cerita. Dibuat untuk langkahmu, ke mana pun kamu pergi.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#koleksi">Jelajahi koleksi <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#tentang">Kenali Langkah <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-proof"><div class="proof-avatars"><span>R</span><span>A</span><span>D</span></div><div><strong>Dipilih oleh 2.000+</strong><br><small>pecinta langkah nyaman</small></div><div class="proof-rating">★★★★★ <small>4.9/5</small></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrap"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Sneakers merah pilihan Langkah"></div>
+        <div class="hero-sticker"><span>★</span><br>STEP INTO<br>YOUR STORY</div>
+        <div class="hero-caption"><span class="caption-dot"></span> Koleksi terbaru <strong>— 2026</strong></div>
+      </div>
+      <div class="hero-index">01 <span>— 03</span></div>
+    </section>
+
+    <section class="benefits" aria-label="Keunggulan Langkah">
+      <div><span class="benefit-icon">✳</span><span><strong>Nyaman seharian</strong><small>Dirancang untuk menemani</small></span></div>
+      <div><span class="benefit-icon">◇</span><span><strong>Kualitas pilihan</strong><small>Material awet dan teruji</small></span></div>
+      <div><span class="benefit-icon">↗</span><span><strong>Pengiriman cepat</strong><small>Sampai ke seluruh Indonesia</small></span></div>
+      <div><span class="benefit-icon">♡</span><span><strong>Belanja tanpa khawatir</strong><small>Garansi tukar ukuran 7 hari</small></span></div>
+    </section>
+
+    <section class="collection section-wrap" id="koleksi">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> TEMUKAN FAVORITMU</p><h2>Langkah pilihan.</h2></div>
+        <a class="text-link" href="#koleksi">Lihat semua produk <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="category-row" aria-label="Kategori produk">
+        <button class="category-chip selected" type="button" data-filter="Semua">Semua <span>06</span></button>
+        <button class="category-chip" type="button" data-filter="Sneakers">Sneakers</button>
+        <button class="category-chip" type="button" data-filter="Running">Running</button>
+        <button class="category-chip" type="button" data-filter="Casual">Casual</button>
+        <span class="catalog-note">Pilihan yang dibuat untuk hari-harimu.</span>
+      </div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="story section-wrap" id="tentang">
+      <div class="story-image"><img src="https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&amp;fit=crop&amp;w=1100&amp;q=85" alt="Sepatu tersusun rapi di studio Langkah"><span class="story-tag">MADE FOR YOUR EVERYDAY</span></div>
+      <div class="story-copy"><p class="eyebrow"><span class="eyebrow-line"></span> CERITA DI BALIK LANGKAH</p><h2>Setiap perjalanan dimulai dari <span>satu langkah.</span></h2><p>Kami percaya sepatu yang tepat bisa mengubah cara kamu menjalani hari. Langkah menghadirkan pilihan yang nyaman, berkualitas, dan selalu siap menemani cerita barumu.</p><a class="button button-outline" href="#kontak">Cerita bersama kami <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="newsletter section-wrap">
+      <div><p class="eyebrow">JANGAN LEWATKAN LANGKAH BARU</p><h2>Temukan kabar baik di inbox-mu.</h2><p>Info koleksi baru, cerita menarik, dan penawaran spesial.</p></div>
+      <form class="newsletter-form" id="newsletter-form"><label class="visually-hidden" for="newsletter-email">Alamat email</label><input id="newsletter-email" type="email" placeholder="Alamat email kamu" required><button type="submit" aria-label="Daftar newsletter">→</button><small id="newsletter-message">Dengan berlangganan, kamu setuju menerima kabar dari Langkah.</small></form>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="kontak">
+    <div class="footer-main"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">L</span>langkah<span class="brand-period">.</span></a><p>Temani setiap langkah, ciptakan cerita baru.</p><a class="footer-wa" data-wa-link href="#" target="_blank" rel="noopener noreferrer">Tanya kami di WhatsApp <span>↗</span></a></div><div class="footer-column"><strong>Jelajahi</strong><a href="#koleksi">Semua koleksi</a><a href="keranjang.html">Keranjang</a><a href="pembayaran.html">Pembayaran</a></div><div class="footer-column"><strong>Bantuan</strong><a href="#kontak">Panduan ukuran</a><a href="#kontak">Pengiriman &amp; retur</a><a href="#kontak">Hubungi kami</a></div><div class="footer-column"><strong>Ikuti cerita kami</strong><a href="#kontak">Instagram ↗</a><a href="#kontak">TikTok ↗</a><a href="#kontak">Surabaya, Indonesia</a></div></div>
+    <div class="footer-bottom"><span>© 2026 Langkah. Dibuat untuk setiap perjalanan.</span><span>Privasi &nbsp; · &nbsp; Syarat &amp; ketentuan</span></div>
+  </footer>
+</body>
+</html>

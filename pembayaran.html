@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ee">
+  <title>Pembayaran — Langkah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="checkout">
+  <div class="announcement">Gratis ongkir untuk pembelian mulai dari Rp500.000</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Langkah, ke halaman utama"><span class="brand-mark">L</span>langkah<span class="brand-period">.</span></a>
+    <nav class="main-nav" aria-label="Navigasi utama"><a href="index.html">Beranda</a><a href="index.html#koleksi">Koleksi</a><a href="index.html#tentang">Tentang</a><a href="index.html#kontak">Kontak</a></nav>
+    <div class="header-actions"><a class="icon-link cart-link" href="keranjang.html" aria-label="Buka keranjang">Tas <span class="cart-count">0</span></a><a class="button button-dark header-cta" href="index.html#koleksi">Lanjut belanja <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main class="inner-page section-wrap checkout-page">
+    <div class="breadcrumb"><a href="index.html">Beranda</a><span>/</span><a href="keranjang.html">Keranjang</a><span>/</span><span>Pembayaran</span></div>
+    <div class="section-heading cart-heading"><div><p class="eyebrow"><span class="eyebrow-line"></span> SATU LANGKAH LAGI</p><h1>Selesaikan pesanan<span class="brand-period">.</span></h1></div></div>
+    <div class="checkout-layout">
+      <form class="checkout-form" id="checkout-form">
+        <section class="form-panel"><div class="form-title"><span>01</span><div><h2>Informasi penerima</h2><p>Ke mana kami mengirimkan pilihanmu?</p></div></div><div class="form-grid"><label class="field full-field">Nama lengkap<input name="name" type="text" autocomplete="name" placeholder="Nama penerima" required></label><label class="field">Nomor WhatsApp<input name="phone" type="tel" autocomplete="tel" placeholder="08xxxxxxxxxx" required pattern="[0-9+ ()-]{8,18}"></label><label class="field">Email (opsional)<input name="email" type="email" autocomplete="email" placeholder="nama@email.com"></label><label class="field full-field">Alamat lengkap<textarea name="address" autocomplete="street-address" rows="3" placeholder="Nama jalan, nomor rumah, RT/RW" required></textarea></label><label class="field">Kota / Kabupaten<input name="city" type="text" autocomplete="address-level2" placeholder="Contoh: Bandung" required></label><label class="field">Kode pos<input name="postal" type="text" autocomplete="postal-code" placeholder="40123" required pattern="[0-9]{5}"></label><label class="field full-field">Catatan pesanan (opsional)<textarea name="note" rows="2" placeholder="Patokan alamat atau permintaan khusus"></textarea></label></div></section>
+        <section class="form-panel payment-panel"><div class="form-title"><span>02</span><div><h2>Pilih metode pembayaran</h2><p>Pembayaran dikonfirmasi bersama admin melalui WhatsApp.</p></div></div><div class="payment-options"><label class="payment-option"><input type="radio" name="payment" value="Transfer Bank" checked><span class="payment-mark">↗</span><span><strong>Transfer bank</strong><small>BCA, Mandiri, BNI, BRI</small></span><span class="radio-dot"></span></label><label class="payment-option"><input type="radio" name="payment" value="QRIS"><span class="payment-mark">▦</span><span><strong>QRIS</strong><small>Scan QR dari admin setelah konfirmasi</small></span><span class="radio-dot"></span></label><label class="payment-option"><input type="radio" name="payment" value="E-wallet"><span class="payment-mark">◈</span><span><strong>E-wallet</strong><small>GoPay, OVO, DANA, ShopeePay</small></span><span class="radio-dot"></span></label><label class="payment-option"><input type="radio" name="payment" value="COD"><span class="payment-mark">⌂</span><span><strong>Bayar di tempat (COD)</strong><small>Bayar saat pesanan sampai</small></span><span class="radio-dot"></span></label></div></section>
+        <button class="button button-dark submit-order" type="submit">Konfirmasi lewat WhatsApp <span aria-hidden="true">↗</span></button>
+        <p class="checkout-disclaimer">Pesananmu belum dibayar sampai detail dan ketersediaan dikonfirmasi oleh admin kami.</p>
+      </form>
+      <aside class="order-summary checkout-summary" id="checkout-summary"></aside>
+    </div>
+  </main>
+  <footer class="site-footer" id="kontak"><div class="footer-main"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">L</span>langkah<span class="brand-period">.</span></a><p>Temani setiap langkah, ciptakan cerita baru.</p><a class="footer-wa" data-wa-link href="#" target="_blank" rel="noopener noreferrer">Tanya kami di WhatsApp <span>↗</span></a></div><div class="footer-column"><strong>Jelajahi</strong><a href="index.html#koleksi">Semua koleksi</a><a href="keranjang.html">Keranjang</a><a href="pembayaran.html">Pembayaran</a></div><div class="footer-column"><strong>Bantuan</strong><a href="#kontak">Panduan ukuran</a><a href="#kontak">Pengiriman &amp; retur</a><a href="#kontak">Hubungi kami</a></div><div class="footer-column"><strong>Ikuti cerita kami</strong><a href="#kontak">Instagram ↗</a><a href="#kontak">TikTok ↗</a><a href="#kontak">Surabaya, Indonesia</a></div></div><div class="footer-bottom"><span>© 2026 Langkah. Dibuat untuk setiap perjalanan.</span><span>Privasi &nbsp; · &nbsp; Syarat &amp; ketentuan</span></div></footer>
+</body>
+</html>
